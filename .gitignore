@@ -1,0 +1,169 @@
+# Criado por https://www.toptal.com/developers/gitignore/api/swift,macos,xcode,objective-c
+# Edite em https://www.toptal.com/developers/gitignore?templates=swift,macos,xcode,objective-c
+
+### Mac OS ###
+# Em geral
+.DS_Store
+.AppleDouble
+.LSO substituir
+
+# O ícone deve terminar com dois \r
+Ícone
+
+
+# Miniaturas
+._*
+
+# Arquivos que podem aparecer na raiz de um volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.Itens Temporários
+.Lixo
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Diretórios potencialmente criados no compartilhamento AFP remoto
+.AppleDB
+.AppleDesktop
+Pasta Lixo da Rede
+Itens Temporários
+.apdisk
+
+### Patch do macOS ###
+# arquivos gerados pelo iCloud
+*.icloud
+
+### Objective-C ###
+# Xcode
+#
+# gitignore contribuidores: lembre-se de atualizar Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## Configurações do Usuário
+xcuserdata/
+
+## compatibilidade com o Xcode 8 e anteriores (ignorando não é necessário iniciar o Xcode 9)
+*.xcscmplanta
+*.xccheckout
+
+## compatibilidade com o Xcode 3 e anteriores (ignorando não é necessário iniciar o Xcode 4)
+construir/
+Dados Derivados/
+*.afastado
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+## Específico de Obj-C/Swift
+*.hmap
+
+## Embalagem de aplicativos
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# CocoaPods
+# Não recomendamos adicionar o diretório Pods ao seu .gitignore. No entanto
+# você deve julgar por si mesmo, os prós e contras são mencionados em:
+# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
+# Pods/
+# Adicione esta linha se você quiser evitar o check-in do código-fonte do espaço de trabalho do Xcode
+# *.xcworkspace
+
+# Cartago
+# Adicione esta linha se você quiser evitar o check-in do código-fonte das dependências do Carthage.
+# Cartago/Checkouts
+
+Cartago/Construção/
+
+# via rápida
+# Recomenda-se não armazenar as capturas de tela no repositório git.
+# Em vez disso, use o fastlane para gerar novamente as capturas de tela sempre que forem necessárias.
+# Para obter mais informações sobre a configuração recomendada, visite:
+# https://docs.fastlane.tools/best-practices/source-control/#source-control
+
+via rápida/relatório.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Injeção de código
+# Após as novas ferramentas de injeção de código, há uma pasta gerada /iOSInjectionProject
+# https://github.com/johnno1962/injectionforxcode
+
+iOSInjectionProject/
+
+### Atualização do Objective-C ###
+
+### Rápido ###
+# Xcode
+# gitignore contribuidores: lembre-se de atualizar Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+
+
+
+
+
+## Playgrounds
+linha do tempo.xctimeline
+playground.xcworkspace
+
+# Gerenciador de Pacotes Swift
+# Adicione esta linha se quiser evitar o check-in do código-fonte das dependências do Swift Package Manager.
+# Pacotes/
+# Package.pins
+# Pacote.resolvido
+# *.xcodeproj
+# O Xcode gera automaticamente este diretório com um arquivo .xcworkspacedata e xcuserdata
+# portanto, não é necessário, a menos que você tenha adicionado um arquivo de configuração de pacote ao seu projeto
+# .swiftpm
+
+.construir/
+
+# CocoaPods
+# Não recomendamos adicionar o diretório Pods ao seu .gitignore. No entanto
+# você deve julgar por si mesmo, os prós e contras são mencionados em:
+# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
+# Pods/
+# Adicione esta linha se você quiser evitar o check-in do código-fonte do espaço de trabalho do Xcode
+# *.xcworkspace
+
+# Cartago
+# Adicione esta linha se você quiser evitar o check-in do código-fonte das dependências do Carthage.
+# Cartago/Checkouts
+
+
+# Gerenciamento de dependências Accio
+Dependências/
+.accio/
+
+# via rápida
+# Recomenda-se não armazenar as capturas de tela no repositório git.
+# Em vez disso, use o fastlane para gerar novamente as capturas de tela sempre que forem necessárias.
+# Para obter mais informações sobre a configuração recomendada, visite:
+# https://docs.fastlane.tools/best-practices/source-control/#source-control
+
+
+# Injeção de código
+# Após as novas ferramentas de injeção de código, há uma pasta gerada /iOSInjectionProject
+# https://github.com/johnno1962/injectionforxcode
+
+
+### Xcode ###
+
+## Xcode 8 e anteriores
+
+### Correção do Xcode ###
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+/*.gcno
+**/xcshareddata/WorkspaceSettings.xcsettings
+
+# Fim de https://www.toptal.com/developers/gitignore/api/swift,macos,xcode,objective-c
